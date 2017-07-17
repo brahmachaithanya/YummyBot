@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#78797c</color>
+    <color name="colorPrimaryDark">#4d4d4e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ButtonColor" >#6a6768</color>
+    <color name="CardColor" >#b4b2b3</color>
+    <color name="duskyellow">#ed6a0d</color>
+    <color name="lightgrey">#df740f</color>
+</resources>

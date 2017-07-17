@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="Trending Now"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/label_short_trending"
+        android:shortcutLongLabel="@string/label_long_trending"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.brahma.yummybot"
+            android:targetClass="com.example.brahma.yummybot.MainActivity" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="Create Recipe"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/label_short_create"
+        android:shortcutLongLabel="@string/label_long_create"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.brahma.yummybot"
+            android:targetClass="com.example.brahma.yummybot.CreateRecipe" />
+
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

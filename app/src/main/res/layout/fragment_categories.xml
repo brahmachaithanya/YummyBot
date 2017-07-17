@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/categoriesContainer"
+              android:orientation="vertical"
+              android:layout_margin="5dp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.brahma.yummybot.CategoriesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Appetizers"
+       android:id="@+id/buttonAppetizer"
+       android:textSize="20dp"
+       android:layout_weight="1"
+       android:layout_margin="5dp"
+       android:textColor="#ffffff"
+       android:background="@drawable/button_design"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunch"
+        android:id="@+id/buttonLunch"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:id="@+id/buttonDinner"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desserts"
+        android:id="@+id/buttonDesserts"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_design"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.example.brahma.yummybot.VideoFragment">
+
+    <!-- TODO: Update blank fragment layout
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/YoutubeVideo">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonYoutube"
+        android:text="Play"
+        />
+        -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Click here to View Video"
+        android:id="@+id/viewVideo"/>
+
+</LinearLayout>

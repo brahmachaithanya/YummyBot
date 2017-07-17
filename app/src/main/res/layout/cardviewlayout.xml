@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+     android:layout_height="wrap_content"
+    android:id="@+id/recipecards">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/CardColor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="4dp"
+            android:scaleType="fitXY"
+            android:id="@+id/card_image"
+            android:src="@drawable/test_image"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/card_name"
+             android:text="RecipeName"
+             android:textStyle="normal|bold"
+             android:layout_marginLeft="5dp"
+             android:textColor="@android:color/black"
+             android:textSize="10sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_desc"
+                android:text="description"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="8dp" />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="10"
+                style="?android:attr/ratingBarStyleSmall"
+                android:theme="@style/RatingBar"
+                android:id="@+id/ratingbar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+ </LinearLayout>
+    </android.support.v7.widget.CardView>
